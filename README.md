@@ -1,4 +1,4 @@
-# Django QR Code
+# Indentify QR Code
 [![Latest PyPI version](https://badge.fury.io/py/django-qr-code.svg)](https://badge.fury.io/py/django-qr-code)
 [![Downloads](https://img.shields.io/pypi/dm/django-qr-code.svg)](https://pypi.python.org/pypi/django-qr-code)
 [![Documentation Status](https://readthedocs.org/projects/django-qr-code/badge/?version=latest)](https://django-qr-code.readthedocs.io/latest/pages/README.html)
@@ -33,7 +33,7 @@ pip install django-qr-code
 ### From the Source Code
 In order to modify or test this app you may want to install it from the source code.
 
-Clone the [GitHub repository](https://github.com/dprog-philippe-docourt/django-qr-code) and install dependencies:
+Clone the [GitHub repository](https://github.com/thogir0712/indentify-QR-code) and install dependencies:
 ```bash
 git clone https://github.com/dprog-philippe-docourt/django-qr-code
 pip install -r requirements.txt -r requirements-dev.txt
@@ -54,7 +54,7 @@ You need to load the tags provided by this app in your template with:
 {% load qr_code %}
 ```
 
-The source code on [GitHub](https://github.com/dprog-philippe-docourt/django-qr-code) contains a simple demo app. Please check out the [templates folder](https://github.com/dprog-philippe-docourt/django-qr-code/tree/master/qr_code_demo/templates/qr_code_demo) for an example of template, and the [setting](https://github.com/dprog-philippe-docourt/django-qr-code/tree/master/demo_site/settings.py) and [urls](https://github.com/dprog-philippe-docourt/django-qr-code/tree/master/demo_site/urls.py) files for an example of configuration and integration.
+The source code on [GitHub](https://github.com/thogir0712/indentify-QR-code) contains a simple demo app. Please check out the [templates folder](https://github.com/thogir0712/indentify-QR-code/tree/master/qr_code_demo/templates/qr_code_demo) for an example of template, and the [setting](https://github.com/dprog-philippe-docourt/django-qr-code/tree/master/demo_site/settings.py) and [urls](https://github.com/thogir0712/indentify-QR-code/tree/master/demo_site/urls.py) files for an example of configuration and integration.
 
 ### Example: Inline QR Code
 
@@ -78,7 +78,7 @@ Refer to the [official documentation for tags](https://django-qr-code.readthedoc
 ### Demo Application
 If you want to try this app, you may want to use the demo application shipped alongside the source code.
 
-Get the source code from [GitHub](https://github.com/dprog-philippe-docourt/django-qr-code), follow the [installation instructions](#from-the-source-code) above, and run the `runserver` command of Django:
+Get the source code from [GitHub](https://github.com/thogir0712/indentify-QR-code), follow the [installation instructions](#from-the-source-code) above, and run the `runserver` command of Django:
 ```bash
 python manage.py runserver
 ```
@@ -98,7 +98,7 @@ If you do not want to use Django tags for rendering QR code in a template, you c
 Refer to the [official API documentation](https://django-qr-code.readthedocs.io/latest/pages/api.html) for more detailed information.
 
 ## Testing
-Get the source code from [GitHub](https://github.com/dprog-philippe-docourt/django-qr-code), follow the [installation instructions](#from-the-source-code) above, and run the `test` command of Django:
+Get the source code from [GitHub](https://github.com/thogir0712/indentify-QR-code), follow the [installation instructions](#from-the-source-code) above, and run the `test` command of Django:
 ```bash
 python manage.py test
 ```
